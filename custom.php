@@ -153,3 +153,6 @@ if( $sidebar == 'none' ) {
 
 
 <!-- [ujicountdown id="" expire="12/09/2017 00:00"] --> 
+
+stop hard coding this
+<?php echo get_the_title($page_id); ?>
